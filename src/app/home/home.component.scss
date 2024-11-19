@@ -1,0 +1,43 @@
+.brownie-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f8f0;
+    padding: 40px;
+}
+
+.brownie-page .hero {
+    flex: 1;
+}
+
+.brownie-page .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #8b4513;
+    margin-bottom: 16px;
+}
+
+.brownie-page .hero p {
+    font-size: 18px;
+    color: #8b4513;
+    margin-bottom: 24px;
+}
+
+.brownie-page .hero .cta-button {
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.brownie-page .brownie-image {
+    flex: 1;
+    text-align: right;
+}
+
+.brownie-page .brownie-image img {
+    max-width: 100%;
+    height: auto;
+}
